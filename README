@@ -1,0 +1,13 @@
+File System Attachment
+======================
+
+Module to store file attachments locally on the server's file system.
+
+To use, install plugin and add these keys in your config/settings.yml file:
+
+  file_attachment_storage: file_system
+  file_system_attachments_path: /path/to/directory/to/store/files
+
+If file_system_attachments_path starts with a /, it is an absolute path, else it is a path relative to RAILS_ROOT
+
+Copyright (c) 2009 Raphaël Bauduin, released under the AGPL v3 license
